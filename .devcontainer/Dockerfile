@@ -15,6 +15,6 @@ FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-12
 
 RUN npm install -g heroku
 
-RUN npm start
-
 RUN npm install @types/react-router-dom
+
+RUN npm start
